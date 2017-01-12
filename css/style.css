@@ -8,7 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #999999;
+	color: #000000;
 	font-size: 300;
 	font-size: 16px;
 }
@@ -183,7 +183,7 @@ banner
 services
 ***************************************/
 .icon i{
-	color: #0cb8b6;
+	color: #000000;
 	font-size: 45px;
 	margin-bottom: 25px;
 }
