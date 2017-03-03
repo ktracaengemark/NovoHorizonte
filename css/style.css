@@ -141,7 +141,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: transparent;
 	min-height: 650px;
 }
 .banner-info{
@@ -162,8 +162,16 @@ banner
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
 	padding: 10px 20px;
+	font-size: 38px;
+	background-color: rgba(12, 184, 182, 0.30);
+	border-radius: 3px;
+	color: #fff;
+}
+.btn-appoint1, .btn-appoint1:hover, .btn-appoint1:focus{
+	margin-top: 30px;
+	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	background-color: rgba(12, 184, 182, 0.30);
 	border-radius: 3px;
 	color: #fff;
 }
@@ -243,6 +251,12 @@ about
 	line-height: 1.4;
 	font-size: 28px;
 }
+
+/*BOTÃO TELEVENDAS*/
+ .css-input { padding:22px; text-align:center; font-size:23px; border-width:5px; border-radius:29px; border-color:#ffffff; color:#ffffff; background-color:#919eb3; border-style:solid; text-shadow:-43px -26px 0px rgba(42,42,42,.100); font-weight:bold; font-style:none; font-family:sans-serif;  } 
+		 .css-input:focus { outline:none; } 
+		 
+		 
 .more-features-box-text-icon {
     float: left;
     width: 40px;

@@ -18,6 +18,19 @@
         Author URL: https://bootstrapmade.com
     ======================================================= -->
   </head>
+  <script language="JavaScript" type="text/JavaScript">
+<!--
+var popUpWin=0;
+function popUpWindow(URLStr, left, top, width, height)
+{
+  if(popUpWin)
+  {
+    if(!popUpWin.closed) popUpWin.close();
+  }
+  popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub ar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+}
+-->
+</script>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   	<!--banner-->
 	<section id="banner" class="banner">
@@ -31,14 +44,24 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <!--<a class="navbar-brand" href="#"><img src="img/logo1.png" class="img-responsive" style="width: 140px; margin-top: -16px;"></a>-->
+				      <a class="navbar-brand" href="#"><img src="img/logo1.png" class="img-responsive" style="width: 140px; margin-top: -16px;"></a>
 				    </div>
 				    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
 				      <ul class="nav navbar-nav">
 				        <li class="active"><a href="#banner">Início</a></li>
 				        <li class=""><a href="#about">Sobre Nós</a></li>
-						<li class=""><a href="#encarte">Nosso Encarte</a></li>
-						 <li class=""><a href="#cta-1">Produtos</a></li>
+						<li class=""><a href="#cta-1">Produtos</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle"
+							   data-toggle="dropdown"
+							   href="#"><b>
+								Encarte
+								</b><b class="caret"></b>
+							  </a>
+							<ul class="dropdown-menu">
+							    <li><a onMouseDown="popUpWindow('frente.jpg', '100', '30', '316', '480')" href="#banner"><b>Frente</b></a></li>
+							    <li><a onMouseDown="popUpWindow('verso.jpg', '100', '30', '316', '480')" href="#banner"><b>Verso</b></a></li>							
+							</ul>
 				        <li class=""><a href="#contact">Televendas</a></li>
 				      </ul>
 				    </div>
@@ -49,17 +72,18 @@
 				<div class="row">
 					<div class="banner-info">
 						<div class="banner-logo text-center">
-							<!--<img src="img/logo1.png" class="img-responsive">-->
+							<img src="img/logo1.png" class="img-responsive">
 						</div>
 						<div class="banner-text text-center">
-							<h1 class="white">A qualidade e a confiança que você precisa</h1>
-							<p><br></p>
-							<a href="#contact" class="btn btn-appoint">Conheça Nosso Televendas</a>
+							<a href="#contact" class="btn btn-appoint"><strong>TELEVENDAS<p>2634-3027</p><p>2636-3380</p></strong></a><p>
 						</div>
+						<br>
+						<br>
 						<div class="overlay-detail text-center">
 			               <a href="#service"><i class="fa fa-angle-down"></i></a>
 			             </div>		
 					</div>
+					<br>
 				</div>
 			</div>
 		</div>
@@ -327,12 +351,14 @@
 				<div class="col-md-4 col-sm-4">
 			      <h3>Informação de contato</h3>
 			      <div class="space"></div>
-			      <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Avenida José Mendonça de Campos,<br>
-			        745, Colubandê - SG - RJ</p>
+			      <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i><br>
+		          </p>
 			      <div class="space"></div>
-			      <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>contato@agevet.com.br</p>
+			      <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>contato@novohorizonte.com.br</p>
 			      <div class="space"></div>
-			      <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>(21)2712-6094</p>
+			      <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>(21)2634-3027</p>
+				  <div class="space"></div>
+				  <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>(21)2636-3380</p>
 			    </div>
 				<div class="col-md-8 col-sm-8 marb20">
 					<div class="contact-info">
